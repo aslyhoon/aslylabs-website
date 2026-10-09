@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AslyLabs — AI products, built in India</title>
+<meta name="description" content="AslyLabs is an independent software studio building AI-powered products: a smart expense tracker with ML forecasting and an AI mock interviewer for students and job seekers.">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #0b0f1a; color: #e8ecf4; line-height: 1.6; }
+  header { padding: 22px 6%; display: flex; justify-content: space-between; align-items: center; }
+  .logo { font-size: 1.5rem; font-weight: 800; letter-spacing: .5px; }
+  .logo span { color: #6c8cff; }
+  nav a { color: #aebadd; text-decoration: none; margin-left: 26px; font-size: .98rem; }
+  nav a:hover { color: #fff; }
+  .hero { text-align: center; padding: 90px 6% 70px; background: radial-gradient(ellipse 70% 55% at 50% 0%, rgba(108,140,255,.22), transparent); }
+  .hero h1 { font-size: clamp(2.2rem, 5.5vw, 3.6rem); font-weight: 800; line-height: 1.15; }
+  .hero h1 span { color: #6c8cff; }
+  .hero p { max-width: 640px; margin: 22px auto 0; color: #b9c2da; font-size: 1.12rem; }
+  .badge { display: inline-block; margin-bottom: 22px; padding: 6px 16px; border: 1px solid #33406b; border-radius: 999px; color: #9db1e8; font-size: .85rem; background: rgba(108,140,255,.08); }
+  section { padding: 70px 6%; max-width: 1150px; margin: 0 auto; }
+  h2 { font-size: 2rem; font-weight: 800; text-align: center; margin-bottom: 14px; }
+  .sub { text-align: center; color: #9aa6c4; max-width: 620px; margin: 0 auto 44px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 26px; }
+  .card { background: #121830; border: 1px solid #232c52; border-radius: 16px; padding: 34px 30px; }
+  .card .icon { font-size: 2.2rem; }
+  .card h3 { font-size: 1.35rem; margin: 14px 0 10px; }
+  .card p { color: #a9b4d0; font-size: .99rem; }
+  .card ul { margin: 16px 0 0 18px; color: #c3cde6; font-size: .95rem; }
+  .card li { margin-bottom: 6px; }
+  .tag { display: inline-block; margin-top: 18px; padding: 4px 12px; border-radius: 999px; background: rgba(52,211,153,.12); color: #34d399; font-size: .8rem; border: 1px solid rgba(52,211,153,.35); }
+  .about { background: #10162b; border: 1px solid #232c52; border-radius: 16px; padding: 40px 36px; text-align: center; }
+  .about p { color: #b9c2da; max-width: 720px; margin: 0 auto; }
+  .about b { color: #fff; }
+  footer { text-align: center; padding: 44px 6% 54px; color: #7d88a8; font-size: .92rem; border-top: 1px solid #1b2342; }
+  footer a { color: #9db1e8; text-decoration: none; }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">Asly<span>Labs</span></div>
+  <nav>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <div class="badge">Independent software studio · Greater Noida, India · Est. 2026</div>
+  <h1>Small team. <span>AI-first</span> products.<br>Built for real people.</h1>
+  <p>AslyLabs builds practical AI-powered software — tools that help students prepare for interviews and help everyday users understand where their money goes.</p>
+</div>
+
+<section id="products">
+  <h2>Our Products</h2>
+  <p class="sub">Two products, one goal: use AI to solve everyday problems for Indian students and young professionals.</p>
+  <div class="grid">
+    <div class="card">
+      <div class="icon">🎤</div>
+      <h3>AI Mock Interviewer</h3>
+      <p>A practice platform that conducts realistic, voice-based mock interviews and gives structured feedback, so students and job seekers walk into real interviews prepared.</p>
+      <ul>
+        <li>AI-generated questions tailored to the role</li>
+        <li>Answer analysis with actionable feedback</li>
+        <li>Built for placement season at Indian colleges</li>
+      </ul>
+      <span class="tag">Live · Open source</span>
+    </div>
+    <div class="card">
+      <div class="icon">💰</div>
+      <h3>Smart Expense Tracker</h3>
+      <p>A full-stack personal finance app that tracks spending and uses machine learning to forecast next month's expenses — before the money runs out.</p>
+      <ul>
+        <li>ML-based expense forecasting (FastAPI service)</li>
+        <li>Category insights and monthly summaries</li>
+        <li>React + Spring Boot + PostgreSQL stack</li>
+      </ul>
+      <span class="tag">Live demo available</span>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About AslyLabs</h2>
+  <p class="sub"></p>
+  <div class="about">
+    <p>AslyLabs was founded in <b>2026</b> by <b>Anmol Agrawal</b>, a computer science (AI) undergraduate and full-stack developer based in Greater Noida, India. We are a bootstrapped studio: every product is designed, built and shipped in-house, with AI at the core of the experience — from interview simulation to financial forecasting.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p class="sub">Questions, feedback or collaboration — write to us at<br><b style="color:#fff">anmol@aslylabs.in</b></p>
+</section>
+
+<footer>
+  © 2026 AslyLabs · Greater Noida, India · <a href="mailto:anmol@aslylabs.in">anmol@aslylabs.in</a>
+</footer>
+</body>
+</html>
