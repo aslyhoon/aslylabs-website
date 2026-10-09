@@ -22,7 +22,9 @@
   h2 { font-size: 2rem; font-weight: 800; text-align: center; margin-bottom: 14px; }
   .sub { text-align: center; color: #9aa6c4; max-width: 620px; margin: 0 auto 44px; }
   .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 26px; }
-  .card { background: #121830; border: 1px solid #232c52; border-radius: 16px; padding: 34px 30px; }
+  .card { background: #121830; border: 1px solid #232c52; border-radius: 16px; padding: 34px 30px; display: block; text-decoration: none; color: inherit; transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease; }
+  .card:hover { transform: translateY(-4px); border-color: #6c8cff; box-shadow: 0 14px 34px rgba(108,140,255,.18); }
+  .card .view { display: inline-block; margin-top: 18px; margin-left: 10px; color: #6c8cff; font-size: .88rem; font-weight: 600; }
   .card .icon { font-size: 2.2rem; }
   .card h3 { font-size: 1.35rem; margin: 14px 0 10px; }
   .card p { color: #a9b4d0; font-size: .99rem; }
@@ -56,7 +58,7 @@
   <h2>Our Products</h2>
   <p class="sub">Two products, one goal: use AI to solve everyday problems for Indian students and young professionals.</p>
   <div class="grid">
-    <div class="card">
+    <a class="card" href="https://github.com/aslyhoon/ai-mock-interviewer" target="_blank" rel="noopener">
       <div class="icon">🎤</div>
       <h3>AI Mock Interviewer</h3>
       <p>A practice platform that conducts realistic, voice-based mock interviews and gives structured feedback, so students and job seekers walk into real interviews prepared.</p>
@@ -65,9 +67,9 @@
         <li>Answer analysis with actionable feedback</li>
         <li>Built for placement season at Indian colleges</li>
       </ul>
-      <span class="tag">Live · Open source</span>
-    </div>
-    <div class="card">
+      <span class="tag">Live · Open source</span><span class="view">View on GitHub →</span>
+    </a>
+    <a class="card" href="https://github.com/aslyhoon/smart-expense-tracker" target="_blank" rel="noopener">
       <div class="icon">💰</div>
       <h3>Smart Expense Tracker</h3>
       <p>A full-stack personal finance app that tracks spending and uses machine learning to forecast next month's expenses — before the money runs out.</p>
@@ -76,8 +78,8 @@
         <li>Category insights and monthly summaries</li>
         <li>React + Spring Boot + PostgreSQL stack</li>
       </ul>
-      <span class="tag">Live demo available</span>
-    </div>
+      <span class="tag">Live demo available</span><span class="view">View on GitHub →</span>
+    </a>
   </div>
 </section>
 
